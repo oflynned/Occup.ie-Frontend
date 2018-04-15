@@ -2,6 +2,7 @@
   font-family: 'Sacramento', Arial, sans-serif;
 }
 
+a,
 p,
 h1,
 h2,
@@ -13,13 +14,11 @@ h5 {
 }
 
 nav ul li a {
-  font-family: 'Poiret One', sans-serif;
   color: white;
-  padding: .5em;
 }
 
-p {
-  padding: .5em;
+p.header {
+  font-size: 1.25em;
 }
 
 p.footer {
