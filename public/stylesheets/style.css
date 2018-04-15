@@ -1,39 +1,19 @@
-html {
-    height: 100%;
-    width: 100%;
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    display: table;
+nav ul {
+  padding: 2em 1em 2em 1em;
 }
 
-h1 {
-    font-family: 'Raleway', sans-serif;
+img.centre {
+  display: inline-block;
 }
 
-img {
-    width: 192px;
-    height: 192px;
-}
-
-.burgundy {
-    background-color: #840032;
-}
-
-.white {
-    color: white;
-}
-
-.text-centre {
-    text-align: center;
-}
-
-div {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+.vertical-centre {
+  display: flex;
+  align-items: center;
 }
