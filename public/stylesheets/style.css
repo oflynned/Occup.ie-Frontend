@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+nav {
+  height: 10vh;
+  margin-top: 1em;
+}
+
 nav ul {
   padding: 2em 1em 2em 1em;
 }
@@ -14,6 +19,12 @@ nav ul {
 img.centre {
   display: inline-block;
   height: 256px;
+  width: auto;
+}
+
+img.logo-small {
+  display: inline-block;
+  height: 64px;
   width: auto;
 }
 
