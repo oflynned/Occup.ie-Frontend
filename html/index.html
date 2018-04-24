@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>occup.ie | Slogan? Slogan!</title>
+    <title>occup.ie | Filter. Find. Feel.</title>
     <meta name="description" content="occup.ie">
     <meta name="keywords" content="occup.ie">
     <meta name="author" content="Edmond Ó Floinn">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
     <link rel="shortcut icon" type="image/png" href="../public/images/icon.png"/>
 
+    <link href="../public/stylesheets/margins.css" rel="stylesheet" type="text/css"/>
     <link href="../public/stylesheets/colour.css" rel="stylesheet" type="text/css"/>
     <link href="../public/stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <link href="../public/stylesheets/text.css" rel="stylesheet" type="text/css"/>
@@ -20,36 +24,34 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 
 <body class="desire-bg">
 <section class="row desire-bg" id="home-section">
     <div class="container">
-        <nav class="navbar navbar-expand-md" style="min-height: 10vh;">
-          <div class="navbar-collapse collapse order-0 order-md-0">
-            <ul class="navbar-nav">
-                <img class="logo-small centre" src="../public/images/teepee.png"></img>
-                <h1 class="stylised-font white-text">occup.ie</h3>
-            </ul>
-          </div>
-          <div class="navbar-collapse collapse order-1 order-md-1 justify-content-end">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" id="home" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="about" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="press" href="#press">Press</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact" href="#contact">Contact</a>
-                </li>
-            </ul>
-          </div>
+        <nav class="navbar navbar-expand-md">
+            <div class="navbar-collapse collapse order-0 order-md-0">
+                <ul class="navbar-nav">
+                    <img class="logo-small centre" src="../public/images/teepee.png"/>
+                    <h1 class="stylised-font white-text">occup.ie</h1>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse order-1 order-md-1 justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="home" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="about" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="press" href="#press">Press</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <div class="row" style="min-height: 90vh; padding-bottom: 10vh;">
@@ -57,6 +59,20 @@
                 <img class="centre" src="../public/images/teepee.png"/>
                 <h1 class="white-text text-centre stylised-font logo-text">occup.ie</h1>
                 <p class="white-text text-centre header">Find a place to call home.</p>
+                <div class="row justify-content-center padding-2em">
+                    <div class="col-md-4 col-lg-3">
+                        <a class="btn btn-outline-light" href="https://play.google.com/store/apps/details?id=com.syzible.loinnir" target="_blank">
+                            <i class="fab fa-android" style="font-size: 1.5em; margin-right: .25em;"></i>
+                            Google Play
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <a class="btn btn-outline-light" href="https://play.google.com/store/apps/details?id=com.syzible.loinnir" target="_blank">
+                            <i class="fab fa-apple" style="font-size: 1.5em; margin-right: .25em;"></i>
+                            App Store
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -64,7 +80,7 @@
 
 <section class="row pineapple-bg" id="about-section">
     <div class="container">
-        <div class="row" style="min-height: 50vh;">
+        <div class="row">
             <div class="col-sm-12 my-auto text-center">
                 <h1 class="white-text text-centre stylised-font logo-text">About</h1>
             </div>
@@ -72,11 +88,59 @@
     </div>
 </section>
 
-<section class="row desire-bg" id="press-section">
+<section class="row desire-bg" id="pricing-section">
     <div class="container">
-        <div class="row" style="min-height: 50vh;">
+        <div class="row">
             <div class="col-sm-12 my-auto text-center">
-                <h1 class="white-text text-centre stylised-font logo-text">Press</h1>
+                <h1 class="white-text text-centre stylised-font logo-text">Pricing</h1>
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="heading">
+                                <h3>Basic</h3>
+                            </div>
+                            <p>List your property and find a tenant for free.</p>
+                            <div class="price">
+                                <h4>€0*
+                                    <small class="text-muted">/ month</small>
+                                </h4>
+                            </div>
+                            <button class="btn btn-block btn-outline-primary" type="submit">More Info</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="ribbon stylised-font">best value</div>
+                            <div class="heading">
+                                <h3>Premium</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="price">
+                                <h4>€50
+                                    <small class="text-muted"> / month</small>
+                                </h4>
+                            </div>
+                            <button class="btn btn-block btn-outline-primary" type="submit">More Info</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="heading">
+                                <h3>Deluxe</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="price">
+                                <h4>€150
+                                    <small class="text-muted"> / one time fee</small>
+                                </h4>
+                            </div>
+                            <button class="btn btn-block btn-outline-primary" type="submit">More Info</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -92,12 +156,13 @@
     </div>
 </section>
 
-<section class="row desire-bg" id="contact-section">
+<section class="row desire-bg" id="footer-section">
     <div class="container">
         <div class="row" style="min-height: 30vh;">
             <div class="col-sm-12 my-auto text-center">
                 <a class="white-text text-centre footer" href="mailto:info@occup.ie">info@occup.ie</a>
-                <p class="white-text text-centre footer">&copy; <span id="year"></span> occup.ie. All Rights Reserved.</p>
+                <p class="white-text text-centre footer">&copy; <span id="year"></span> occup.ie. All Rights Reserved.
+                </p>
             </div>
         </div>
     </div>
@@ -113,19 +178,21 @@
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 <script>
-    var year = new Date().getFullYear();
-    var dateId = document.getElementById("year");
+    let year = new Date().getFullYear();
+    let dateId = document.getElementById("year");
     dateId.innerHTML = (year === 2018 ? "2018" : "2018 - " + year);
 </script>
 
 <script>
     function scrollToId(id) {
-        var idPosition = $(id).offset();
+        let idPosition = $(id).offset();
         $('html, body').animate({scrollTop: idPosition.top}, "slow");
     }
 
