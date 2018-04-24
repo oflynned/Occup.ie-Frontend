@@ -1,5 +1,5 @@
 .stylised-font {
-  font-family: 'Sacramento', Arial, sans-serif;
+    font-family: 'Sacramento', Arial, sans-serif;
 }
 
 a,
@@ -9,29 +9,29 @@ h2,
 h3,
 h4,
 h5 {
-  padding: .5em;
-  font-family: 'Poiret One', sans-serif;
+    padding: .5em;
+    font-family: 'Poiret One', sans-serif;
 }
 
 nav ul li a {
-  color: white;
+    color: white;
 }
 
 p.header {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 p.footer {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .text-centre {
-  text-align: center;
+    text-align: center;
 }
 
 .logo-text {
-  margin: 0;
-  padding: .5em;
-  font-size: 5em;
+    margin: 0;
+    padding: .5em;
+    font-size: 5em;
 }
