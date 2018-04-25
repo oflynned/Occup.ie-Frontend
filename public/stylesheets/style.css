@@ -17,13 +17,13 @@ nav ul {
 
 img.centre {
     display: inline-block;
-    height: 256px;
+    height: 15em;
     width: auto;
 }
 
 img.logo-small {
     display: inline-block;
-    height: 64px;
+    height: 4em;
     width: auto;
 }
 
@@ -39,7 +39,7 @@ section div nav {
 #about-section,
 #pricing-section,
 #contact-section {
-    min-height: 50vh;
+    min-height: 100vh;
     padding: 2em;
 }
 
